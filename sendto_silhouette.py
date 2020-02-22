@@ -994,7 +994,7 @@ class SendtoSilhouette(inkex.Effect):
 
   def effect(self):
     if self.options.version:
-      print __version__
+      print(__version__)
       sys.exit(0)
 
     def write_progress(done, total, msg):
